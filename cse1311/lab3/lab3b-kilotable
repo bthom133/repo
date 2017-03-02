@@ -1,0 +1,16 @@
+/*********************************************************************************************************
+CSE 1311: C++ Programming for Engineers
+Brandon Thomas
+Lab 3b: Kilo Table
+Goal(s:
+This program will display a static table from 1 - 100.
+*********************************************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main() {
+	int mil;
+	double kilo
+	double
+	return 0;
+}

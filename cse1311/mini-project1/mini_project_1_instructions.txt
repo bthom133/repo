@@ -1,0 +1,45 @@
+C++ Programming
+Mini-Project #1
+(60 Points)
+Handout: Wed Feb 1, 2017
+DUE: Mon Feb 27, 2017 in class
+
+Area Calculations
+
+1.)	Project #1 – Area Program
+Create a new Project, call it “Area”.  
+In this project your main function should: read in a ‘C’, ‘S’, ‘R’, ‘T’ or an ‘X’.  If the user enters a ‘C’, they want to calculate the Area of a Circle. (S is for Square, R for Rectangle, T for Triangle and X is to Exit). 
+ 
+The user should be able to enter an uppercase or lowercase letter.  
+
+Continue asking the user for another letter until they enter ‘X’ to exit.  
+
+Once the User enters a letter, prompt the user for the data needed to calculate the figure that they want. 
+(Example if they want to calculate the area of a Circle:
+1. prompt the User for to enter a radius.  
+2. Read in the radius, 
+3. calculate the area by using the formula a=pi*Radius squared.     4. Then print out the area of the circle.  
+5. Then go back to the original prompt for C S R T or X. 
+	) 
+
+
+
+
+
+
+2.)	Project #1 – Modify your Area Program from 1.) above
+Modify your Area Project, from Mini-Project #1.  
+Add 4 new Functions to your Project.
+	calcAreaCircle()
+	calcAreaSquare()
+	calAreaRectangle()
+	calAreaTriangle()  
+
+Each of these functions will process an Area calculation:
+(i.e. for a Circle, your function would do the following 4 steps:
+1. prompt the User for to enter a radius.  
+2. Read in the radius, 
+3. calculate the area by using the formula a=pi*Radius squared.     4. Then print out the area of the circle.   ) 
+
+	Lastly modify the if statements/switch statement(whichever one you used) in your main function.  Your main function will no longer do all the work to process the area calculations.  Your main() function will simple call the 4 new functions that you just built.  If the uses enters a ‘C’, call the function “calcAreaCircle()” to process the calculation of the area of a circle.  Do the same for the other 3 figures.
+
